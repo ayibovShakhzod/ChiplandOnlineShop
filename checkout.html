@@ -1,0 +1,357 @@
+<!--By Shakhzod Ayibjonov https://t.me/ShAK0105-->
+<!--        ayubjonvshakhzod01@gmail.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Checkout </title>
+    <link rel="stylesheet" href="css/main/main.css">
+</head>
+<body class=" other-page checkout-page">
+<div class="search-modal">
+    <div class="modalOverlay"></div>
+    <div class="elements">
+        <button type="button" class="btn btn-cancel"><i class="fas fa-arrow-left"></i></button>
+        <div class="search-box">
+            <span class="current-category">
+                Grocery
+            </span>
+            <div class="input-box">
+                <form>
+                    <label>
+                        <input type="text" placeholder="Search your products from here" class="form-control" value="">
+                    </label>
+                    <button type="button" class="btn search-btn"><img src="img/icons/search2.svg" alt=""></button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid product-page-nav navbar-section position-fixed ">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="menu-btn d-block-991">
+            <span></span><span></span><span></span>
+        </div>
+        <a class="navbar-brand " href="#">Chip<span>Land</span></a>
+        <div class="collapse navbar-collapse ">
+            <ul class="navbar-nav mr-auto ml-3">
+            </ul>
+            <div class="nav-search">
+                <span class="search-icon"><img src="img/icons/search2.svg" alt=""></span>
+                <label>
+                    <input type="text" class="form-control" placeholder="Search products from here">
+                </label>
+            </div>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-none-991">
+                <a href="#">Offer</a>
+            </li>
+            <li class="nav-item d-none-991">
+                <a href="#"><i class="fas fa-question-circle"></i> Need Help</a>
+            </li>
+            <li class="nav-item position-relative dropdown-element">
+                <button class="btn btn-dropdown btn-language btn-active"><img src="img/icons/united-kingdom%20(1).svg"
+                                                                              class="mr-1"
+                                                                              alt=""> <span
+                        class="d-none-991">English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li class="active">
+                        <a href=""><img src="img/icons/united-kingdom%20(1).svg" class="mr-1" alt=""> English</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/icons/russia%20(1).svg" class="mr-1" alt=""> Russian</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/icons/uzbekistan.svg" class="mr-1" alt=""> Uzbek</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item d-none-991">
+                <button class="btn main-background-color">
+                    Join
+                </button>
+            </li>
+            <li class="item d-block-991" style="margin-left: 0">
+                <button class="btn  search-btn-nav">
+                    <img src="img/icons/search2.svg" alt="">
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+<main class="main-section ">
+    <div class="section_inner">
+        <div class="right-content">
+            <div class="content">
+                <div class="content-inners">
+                    <div class="title">
+                        <h3>Delivery Schedule</h3>
+                    </div>
+                    <div class="contact-info">
+                        <div class="list schedule">
+                            <label for="time-1" class="label active">
+                                <input type="radio" name="contact" id="time-1" checked>
+                                <span class="type">Express-Delivery</span>
+                                <span class="num">90 min express delivery</span>
+
+                            </label>
+                            <label for="time-2" class="label">
+                                <input type="radio" name="contact" id="time-2">
+                                <span class="type">Express-Delivery</span>
+                                <span class="num">90 min express delivery</span>
+                            </label>
+                            <label for="time-3" class="label">
+                                <input type="radio" name="contact" id="time-3">
+                                <span class="type">Express-Delivery</span>
+                                <span class="num">90 min express delivery</span>
+                            </label>
+                            <label for="time-4" class="label">
+                                <input type="radio" name="contact" id="time-4">
+                                <span class="type">Express-Delivery</span>
+                                <span class="num">90 min express delivery</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-inners">
+                    <div class="title">
+                        <h3>Delivery Address</h3>
+                        <button class="btn float-right add-btn-address">
+                            <span class="btn-text text-main-color">Add Address</span>
+                        </button>
+                    </div>
+                    <div class="contact-info address-info">
+                        <div class="list">
+                            <label for="address-1" class="label active">
+                                <input type="radio" name="contact" id="address-1" checked value="202-555-0191">
+                                <span class="type">Home</span>
+                                <span class="num">27 Street, 2569 Heritage Road Visalia, CA 93291</span>
+                                <span class="delete-edit">
+                            <span class="edit address-edit-btn"><i class="fas fa-pen"></i></span>
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+                            <label for="address-2" class="label">
+                                <input type="radio" name="contact" id="address-2" value="202-555-0191">
+                                <span class="type">Office</span>
+                                <span class="num">33 Baker Street, Crescent Road, CA 65746</span>
+                                <span class="delete-edit">
+                            <span class="edit address-edit-btn"><i class="fas fa-pen"></i></span>
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content-inners">
+                    <div class="title">
+                        <h3>Contact Number</h3>
+                        <button class="btn float-right add-btn-contact">
+                            <span class="btn-text text-main-color">Add Contact</span>
+                        </button>
+                    </div>
+                    <div class="contact-info">
+                        <div class="list">
+                            <label for="contact-1" class="label active">
+                                <input type="radio" name="contact" id="contact-1" checked value="202-555-0191">
+                                <span class="type">primary</span>
+                                <span class="num">202-555-0191</span>
+                                <span class="delete-edit">
+                            <span class="edit contact-edit-btn"><i class="fas fa-pen"></i></span>
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+                            <label for="contact-2" class="label">
+                                <input type="radio" name="contact" id="contact-2" value="202-555-0191">
+                                <span class="type">primary</span>
+                                <span class="num">202-555-0191</span>
+                                <span class="delete-edit">
+                            <span class="edit contact-edit-btn"><i class="fas fa-pen"></i></span>
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content-inners">
+                    <div class="title">
+                        <h3>Payments Card</h3>
+                        <button class="btn add-btn-card">
+                            <span class="btn-text text-main-color">Add Card</span>
+                        </button>
+                    </div>
+                    <div class="contact-info address-info">
+                        <div class="list">
+                            <label for="card-1" class="label active">
+                                <input type="radio" name="contact" id="card-1" checked>
+                                <span class="type small-text">Card number</span>
+                                <span class="num font-weight-bold">1234 5678 9123 4567</span>
+                                <span class="num name">Ayibov Shakhzod</span>
+                                <span class="delete-edit">
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+                            <label for="card-2" class="label">
+                                <input type="radio" name="contact" id="card-2">
+                                <span class="type small-text">Card number</span>
+                                <span class="num font-weight-bold">1234 5678 9123 4567</span>
+                                <span class="num name">Ayibov Shakhzod</span>
+                                <span class="delete-edit">
+                            <span class="delete delete-btn"><i class="fas fa-times"></i></span>
+                        </span>
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="couponBox">
+                        <span class="doYou">Do you have a voucher?</span>
+                        <div class="couponWrapper">
+                            <div class="input-wrapper">
+                                <div class="inner-wrap">
+                                    <input type="text" placeholder="Enter voucher code here">
+                                </div>
+                            </div>
+                            <button type="button" class="buttonStyle">
+                                <span>Apply</span>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="term">
+                        By making this purchase you agree to our <span>terms and conditions.</span>
+                    </span>
+                    <div class="checkoutSubmit">
+                        <button type="button" class="checkout-btn disabled" disabled>
+                            <span class="btn-text">Proceed to Checkout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-sticky">
+            <div class="content-sticky">
+                <div class="content-inners">
+                    <h4>Your Order</h4>
+                    <div class="product">
+                        <span>No products found</span>
+                    </div>
+                    <div class="calculationWrapper">
+                        <div class="text">
+                            <span>Sub total</span>
+                            <span>$0.00</span>
+                        </div> <div class="text">
+                            <span>Delivery Fee</span>
+                            <span>$0.00</span>
+                        </div> <div class="text">
+                            <span>Discount</span>
+                            <span>$0.00</span>
+                        </div>
+                        <div class="text total-sum">
+                            <span>Total (Incl. VAT)</span>
+                            <span>$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="left-menu">
+    <div class="left-menu-in">
+        <button type="button" class="btn close-menu"><i class="fas fa-times"></i></button>
+        <div class="join-box">
+            <button type="button" class="btn">Join In</button>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#" class="active">Checkout</a>
+            </li>
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li>
+                <a href="#">Order</a>
+            </li>
+            <li>
+                <a href="#">Order Invoice</a>
+            </li>
+            <li>
+                <a href="#">Need Help</a>
+            </li>
+            <li>
+                <a href="#">Offer</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="overlay"></div>
+<div class="contact-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Edit contact</div>
+            <div class="input-div">
+                <label>
+                    <input type="text" class="input form-control">
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Contact</button>
+        </form>
+    </div>
+</div>
+<div class="address-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Edit address</div>
+            <div class="input-div">
+                <label>
+                    <input type="text" class="input form-control">
+                </label>
+                <label>
+                    <textarea></textarea>
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Address</button>
+        </form>
+    </div>
+</div>
+<div class="card-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Add card</div>
+            <div class="input-div">
+                <label>
+                    <input type="number" class="input form-control cart-number">
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Card</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="js/jQuery.min.js"></script>
+<!--<script src="js/src/popover.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</html>

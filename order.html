@@ -1,0 +1,755 @@
+<!--By Shakhzod Ayibjonov https://t.me/ShAK0105-->
+<!--        ayubjonvshakhzod01@gmail.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Order </title>
+    <link rel="stylesheet" href="css/main/main.css">
+</head>
+<body class="order-page other-page ">
+<div class="search-modal">
+    <div class="modalOverlay"></div>
+    <div class="elements">
+        <button type="button" class="btn btn-cancel"><i class="fas fa-arrow-left"></i></button>
+        <div class="search-box">
+            <span class="current-category">
+                Grocery
+            </span>
+            <div class="input-box">
+                <form>
+                    <label>
+                        <input type="text" placeholder="Search your products from here" class="form-control" value="">
+                    </label>
+                    <button type="button" class="btn search-btn"><img src="img/icons/search2.svg" alt=""></button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid product-page-nav navbar-section position-fixed">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="menu-btn d-block-991">
+            <span></span><span></span><span></span>
+        </div>
+        <a class="navbar-brand " href="#">Chip<span>Land</span></a>
+        <div class="collapse navbar-collapse ">
+            <ul class="navbar-nav mr-auto ml-3">
+                <li class="nav-item position-relative dropdown-element">
+                    <button class="btn btn-dropdown btn-active"><img src="img/icons/groceries.svg" class="mr-1" alt="">
+                        Grocery <i
+                                class="ml-3 fas fa-caret-down"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li class="active">
+                            <a href=""><img src="img/icons/groceries.svg" class="mr-1" alt=""> Grocery</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/clothes.svg" class="mr-1" alt=""> Clothes</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/bed.svg" class="mr-1" alt=""> Furniture</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/desk-lamp.svg" class="mr-1" alt=""> Electronics</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/books.svg" class="mr-1" alt=""> Book</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/pinwheel.svg" class="mr-1" alt=""> Toys</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-search">
+                <span class="search-icon"><img src="img/icons/search2.svg" alt=""></span>
+                <label>
+                    <input type="text" class="form-control" placeholder="Search products from here">
+                </label>
+            </div>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-none-991">
+                <a href="#">Offer</a>
+            </li>
+            <li class="nav-item d-none-991">
+                <a href="#"><i class="fas fa-question-circle"></i> Need Help</a>
+            </li>
+            <li class="nav-item position-relative dropdown-element">
+                <button class="btn btn-dropdown btn-active"><img src="img/icons/united-kingdom%20(1).svg" class="mr-1"
+                                                                 alt=""> <span class="d-none-991">English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li class="active">
+                        <a href=""><img src="img/icons/united-kingdom%20(1).svg" class="mr-1" alt=""> English</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/icons/russia%20(1).svg" class="mr-1" alt=""> Russian</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/icons/uzbekistan.svg" class="mr-1" alt=""> Uzbek</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item d-none-991">
+                <button class="btn main-background-color">
+                    Join
+                </button>
+            </li>
+            <li class="item d-block-991" style="margin-left: 0">
+                <button class="btn  search-btn-nav">
+                    <img src="img/icons/search2.svg" alt="">
+                </button>
+            </li>
+        </ul>
+    </nav>
+</div>
+<main class="main-section">
+    <div class="left-content ">
+        <div class="content">
+            <ul class="first-list list">
+                <li><a href="#" class="active">Order</a></li>
+                <li><a href="#">Need Help</a></li>
+            </ul>
+            <ul class="second-list list">
+                <li><a href="#">Your Account Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-content">
+        <div class="order-listWrapper">
+            <h3 class="title">My order</h3>
+            <div class="order-list">
+                <div class="scroll">
+                    <div class="list">
+                        <div class="list-item order-select active" data-order-list="1">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#1
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="2">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#2
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item order-select " data-order-list="3">
+                            <div class="list-item-header">
+                                <span class="id">
+                                    Order#3
+                                </span>
+                                <span class="status">
+                                    Order On The Way
+                                </span>
+                            </div>
+                            <div class="list-item-body">
+                                <div class="line">
+                                    <span>Order date:</span>
+                                    <span>7th April 2019</span>
+                                </div>
+                                <div class="line">
+                                    <span>Delivery Time:</span>
+                                    <span>13th April</span>
+                                </div>
+                                <div class="line price">
+                                    <span>Total Price:</span>
+                                    <span>$249.7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-detail active" data-order-detail="1">
+            <h3 class="title">Order Details</h3>
+            <div class="delivery-info">
+                <div class="delivery-address">
+                    <h3>Delivery Address</h3>
+                    <span>1st Floor, House 149, Road-22, Mohakhali DOHS, Dhaka - North</span>
+                </div>
+                <div class="totalCalculation">
+                    <div class="line">
+                        <span>
+                            Sub total
+                        </span>
+                        <span>$300</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Discount
+                        </span>
+                        <span>$0</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Delivery Fee
+                        </span>
+                        <span>$39</span>
+                    </div>
+                    <div class="line price">
+                        <span>
+                            Total
+                        </span>
+                        <span>$339</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-progress">
+                <div class="progress-step checked">
+                    <div class="progress-bars">
+                        <div class="box">
+                                                <span class="checkMark"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="20.894" height="16"
+                                                        viewBox="0 0 20.894 16"><path
+                                                        data-name="_ionicons_svg_ios-checkmark (3)"
+                                                        d="M169.184,175.473l-1.708-1.756a.367.367,0,0,0-.272-.116.352.352,0,0,0-.272.116l-11.837,11.925-4.308-4.308a.375.375,0,0,0-.543,0l-1.727,1.727a.387.387,0,0,0,0,.553l5.434,5.434a1.718,1.718,0,0,0,1.135.553,1.8,1.8,0,0,0,1.126-.534h.01l12.973-13.041A.415.415,0,0,0,169.184,175.473Z"
+                                                        transform="translate(-148.4 -173.6)"
+                                                        fill="currentColor"></path></svg></span>
+                        </div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Received</span>
+                    </div>
+                </div>
+                <div class="progress-step checked">
+                    <div class="progress-bars">
+                        <div class="box">
+                                                <span class="checkMark"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="20.894" height="16"
+                                                        viewBox="0 0 20.894 16"><path
+                                                        data-name="_ionicons_svg_ios-checkmark (3)"
+                                                        d="M169.184,175.473l-1.708-1.756a.367.367,0,0,0-.272-.116.352.352,0,0,0-.272.116l-11.837,11.925-4.308-4.308a.375.375,0,0,0-.543,0l-1.727,1.727a.387.387,0,0,0,0,.553l5.434,5.434a1.718,1.718,0,0,0,1.135.553,1.8,1.8,0,0,0,1.126-.534h.01l12.973-13.041A.415.415,0,0,0,169.184,175.473Z"
+                                                        transform="translate(-148.4 -173.6)"
+                                                        fill="currentColor"></path></svg></span>
+                        </div>
+                        <div class="bar-line first"></div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order On The Way</span>
+                    </div>
+                </div>
+                <div class="progress-step ">
+                    <div class="progress-bars">
+                        <div class="box">
+                            3
+                        </div>
+                        <div class="bar-line first"></div>
+
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Delivered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-list" >
+                <table class="item-list-table">
+                    <thead class="rc-table-thead">
+                    <tr>
+                        <th class="">Items</th>
+                        <th class="" style="text-align: center;">Quantity</th>
+                        <th class="" style="text-align: right;">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-tbody">
+                    <tr class="table-row">
+                        <td class="">
+                                                <span class="itemWrapper">
+                                                    <span class="img">
+                                                        <img src="img/banana_thumb.png" alt="Banana">
+                                                    </span>
+                                                    <span class="itemDetails">
+                                                        <span class="itemName">Banana</span>
+                                                        <span class="itemSize">2lb</span>
+                                                        <span class="itemPrice">$50</span>
+                                                    </span>
+                                                </span>
+                        </td>
+                        <td class="" style="text-align: center;">2</td>
+                        <td class="" style="text-align: right;"><p>$100</p></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="">
+                                                <span class="itemWrapper">
+                                                    <span class="img">
+                                                        <img src="img/red_apple_thumb.png" alt="Banana">
+                                                    </span>
+                                                    <span class="itemDetails">
+                                                        <span class="itemName">Red apple</span>
+                                                        <span class="itemSize">2lb</span>
+                                                        <span class="itemPrice">$50</span>
+                                                    </span>
+                                                </span>
+                        </td>
+                        <td class="" style="text-align: center;">1</td>
+                        <td class="" style="text-align: right;"><p>$100</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="order-detail" data-order-detail="2" >
+            <h3 class="title">Order Details</h3>
+            <div class="delivery-info">
+                <div class="delivery-address">
+                    <h3>Delivery Address</h3>
+                    <span>1st Floor, House 149, Road-22, Mohakhali DOHS, Dhaka - North</span>
+                </div>
+                <div class="totalCalculation">
+                    <div class="line">
+                        <span>
+                            Sub total
+                        </span>
+                        <span>$300</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Discount
+                        </span>
+                        <span>$0</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Delivery Fee
+                        </span>
+                        <span>$39</span>
+                    </div>
+                    <div class="line price">
+                        <span>
+                            Total
+                        </span>
+                        <span>$339</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-progress">
+                <div class="progress-step checked">
+                    <div class="progress-bars">
+                        <div class="box">
+                                                <span class="checkMark"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="20.894" height="16"
+                                                        viewBox="0 0 20.894 16"><path
+                                                        data-name="_ionicons_svg_ios-checkmark (3)"
+                                                        d="M169.184,175.473l-1.708-1.756a.367.367,0,0,0-.272-.116.352.352,0,0,0-.272.116l-11.837,11.925-4.308-4.308a.375.375,0,0,0-.543,0l-1.727,1.727a.387.387,0,0,0,0,.553l5.434,5.434a1.718,1.718,0,0,0,1.135.553,1.8,1.8,0,0,0,1.126-.534h.01l12.973-13.041A.415.415,0,0,0,169.184,175.473Z"
+                                                        transform="translate(-148.4 -173.6)"
+                                                        fill="currentColor"></path></svg></span>
+                        </div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Received</span>
+                    </div>
+                </div>
+                <div class="progress-step">
+                    <div class="progress-bars">
+                        <div class="box">
+                                               2
+                        </div>
+                        <div class="bar-line first"></div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order On The Way</span>
+                    </div>
+                </div>
+                <div class="progress-step ">
+                    <div class="progress-bars">
+                        <div class="box">
+                            3
+                        </div>
+                        <div class="bar-line first"></div>
+
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Delivered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-list" >
+                <table class="item-list-table">
+                    <thead class="rc-table-thead">
+                    <tr>
+                        <th class="">Items</th>
+                        <th class="" style="text-align: center;">Quantity</th>
+                        <th class="" style="text-align: right;">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-tbody">
+                    <tr class="table-row">
+                        <td class="">
+                                                <span class="itemWrapper">
+                                                    <span class="img">
+                                                        <img src="img/banana_thumb.png" alt="Banana">
+                                                    </span>
+                                                    <span class="itemDetails">
+                                                        <span class="itemName">Banana</span>
+                                                        <span class="itemSize">2lb</span>
+                                                        <span class="itemPrice">$50</span>
+                                                    </span>
+                                                </span>
+                        </td>
+                        <td class="" style="text-align: center;">2</td>
+                        <td class="" style="text-align: right;"><p>$100</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="order-detail" data-order-detail="3" >
+            <h3 class="title">Order Details</h3>
+            <div class="delivery-info">
+                <div class="delivery-address">
+                    <h3>Delivery Address</h3>
+                    <span>1st Floor, House 149, Road-22, Mohakhali DOHS, Dhaka - North</span>
+                </div>
+                <div class="totalCalculation">
+                    <div class="line">
+                        <span>
+                            Sub total
+                        </span>
+                        <span>$300</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Discount
+                        </span>
+                        <span>$0</span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            Delivery Fee
+                        </span>
+                        <span>$39</span>
+                    </div>
+                    <div class="line price">
+                        <span>
+                            Total
+                        </span>
+                        <span>$339</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-progress">
+                <div class="progress-step ">
+                    <div class="progress-bars">
+                        <div class="box">
+                                               1
+                        </div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Received</span>
+                    </div>
+                </div>
+                <div class="progress-step ">
+                    <div class="progress-bars">
+                        <div class="box">
+                                               2
+                        </div>
+                        <div class="bar-line first"></div>
+                        <div class="bar-line"></div>
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order On The Way</span>
+                    </div>
+                </div>
+                <div class="progress-step ">
+                    <div class="progress-bars">
+                        <div class="box">
+                            3
+                        </div>
+                        <div class="bar-line first"></div>
+
+                    </div>
+                    <div class="statusDetails">
+                        <span class="statusTitle">Order Delivered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-list" >
+                <table class="item-list-table">
+                    <thead class="rc-table-thead">
+                    <tr>
+                        <th class="">Items</th>
+                        <th class="" style="text-align: center;">Quantity</th>
+                        <th class="" style="text-align: right;">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-tbody">
+                    <tr class="table-row">
+                        <td class="">
+                                                <span class="itemWrapper">
+                                                    <span class="img">
+                                                        <img src="img/banana_thumb.png" alt="Banana">
+                                                    </span>
+                                                    <span class="itemDetails">
+                                                        <span class="itemName">Banana</span>
+                                                        <span class="itemSize">2lb</span>
+                                                        <span class="itemPrice">$50</span>
+                                                    </span>
+                                                </span>
+                        </td>
+                        <td class="" style="text-align: center;">2</td>
+                        <td class="" style="text-align: right;"><p>$100</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="left-menu">
+    <div class="left-menu-in">
+        <button type="button" class="btn close-menu"><i class="fas fa-times"></i></button>
+        <div class="join-box">
+            <button type="button" class="btn">Join In</button>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Checkout</a>
+            </li>
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li>
+                <a href="#" class="active">Order</a>
+            </li>
+            <li>
+                <a href="#">Order Invoice</a>
+            </li>
+            <li>
+                <a href="#">Need Help</a>
+            </li>
+            <li>
+                <a href="#">Offer</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="overlay"></div>
+<div class="contact-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Edit contact</div>
+            <div class="input-div">
+                <label>
+                    <input type="text" class="input form-control">
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Contact</button>
+        </form>
+    </div>
+</div>
+<div class="address-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Edit address</div>
+            <div class="input-div">
+                <label>
+                    <input type="text" class="input form-control">
+                </label>
+                <label>
+                    <textarea></textarea>
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Address</button>
+        </form>
+    </div>
+</div>
+<div class="card-modal modals " style="display: none">
+    <div class="overlay-modal"></div>
+    <div class="close-modal">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="modal">
+        <form>
+            <div class="title">Add card</div>
+            <div class="input-div">
+                <label>
+                    <input type="number" class="input form-control cart-number">
+                </label>
+            </div>
+            <button type="submit" class="btn save-btn">Save Card</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="js/jQuery.min.js"></script>
+<!--<script src="js/src/popover.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</html>

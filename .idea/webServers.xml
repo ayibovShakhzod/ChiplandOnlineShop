@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b9074957-c7ea-4123-b8f6-5ac50850bcae" name="woxrux.uz" url="sftp://woxrux.uz">
+        <fileTransfer rootFolder="/var/www/medfarm" accessType="SFTP" host="woxrux.uz" port="22" sshConfigId="25f18422-2d2b-4320-b2cb-ea18ebb0753c" sshConfig="woxrux.uz">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
